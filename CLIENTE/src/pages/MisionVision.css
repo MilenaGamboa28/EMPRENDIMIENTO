@@ -1,0 +1,32 @@
+/* ==========================================
+   ECOCHATARRA - MISION Y VISION (Arreglo imágenes)
+   ========================================== */
+
+.card img {
+  width: 100%;
+  height: 180px !important;
+  object-fit: cover !important;
+  border-radius: 10px 10px 0 0;
+  background-color: #f0fff4;
+  padding: 0; /* Quitamos padding para que no se achique */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* --- Cards --- */
+.card {
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 128, 0, 0.2);
+}

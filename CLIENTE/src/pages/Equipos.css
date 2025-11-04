@@ -1,0 +1,35 @@
+/* ============================================
+   ECOCHATARRA - Equipos.css
+   Estilos para la sección de vehículos y herramientas
+   ============================================ */
+
+.equipos-section {
+  background-color: #f8fdf9;
+}
+
+.equipo-card {
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.equipo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.equipo-imagen {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.equipo-card:hover .equipo-imagen {
+  transform: scale(1.05);
+}
+
+.equipo-card .card-text {
+  font-size: 0.95rem;
+  color: #444;
+}

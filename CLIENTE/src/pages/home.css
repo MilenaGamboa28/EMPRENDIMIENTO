@@ -1,0 +1,13 @@
+.hero-section {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.hero-section .container {
+  margin-top: 0 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

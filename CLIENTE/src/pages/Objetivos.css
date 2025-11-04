@@ -1,0 +1,23 @@
+/* ==== OBJETIVOS.CSS ==== */
+section {
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 128, 0, 0.15);
+}
+
+select,
+input {
+  border-radius: 10px !important;
+}
+
+.btn-success {
+  font-weight: 600;
+  border-radius: 10px;
+}
