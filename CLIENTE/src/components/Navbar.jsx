@@ -25,7 +25,7 @@ function Navigation() {
             <Nav.Link as={Link} to="/misionvision">Precio metales</Nav.Link>
             <Nav.Link as={Link} to="/objetivos">Calculadora </Nav.Link>
             <Nav.Link as={Link} to="/innovacion">Innovación</Nav.Link>
-            <Nav.Link as={Link} to="/importancia">Importancia</Nav.Link>
+            <Nav.Link as={Link} to="/importancia">Encuesta</Nav.Link>
             <Nav.Link as={Link} to="/equipos">Equipos</Nav.Link>
             <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
           </Nav>

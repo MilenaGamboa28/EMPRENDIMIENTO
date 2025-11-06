@@ -80,7 +80,7 @@ function Objetivos() {
         <Row className="mb-5 text-center">
           <Col>
             <h2 className="text-success fw-bold mb-3">
-              ♻️ Calculadora de Valor de Chatarra
+                Calculadora de Valor de Chatarra
             </h2>
             <p className="text-muted">
               Selecciona el tipo de material, su peso y calidad para estimar su
@@ -97,7 +97,7 @@ function Objetivos() {
                 {/* Selección de material */}
                 <div className="mb-3">
                   <label className="form-label fw-semibold">
-                    🔩 Tipo de Material
+                      Tipo de Material
                   </label>
                   <select
                     className="form-select"
@@ -115,7 +115,7 @@ function Objetivos() {
 
                 {/* Peso */}
                 <div className="mb-3">
-                  <label className="form-label fw-semibold">⚖️ Peso (kg)</label>
+                  <label className="form-label fw-semibold"> Peso (kg)</label>
                   <input
                     type="number"
                     className="form-control"
@@ -130,7 +130,7 @@ function Objetivos() {
                 {/* Factor de calidad */}
                 <div className="mb-4">
                   <label className="form-label fw-semibold">
-                    🌿 Factor de Calidad
+                      Factor de Calidad
                   </label>
                   <select
                     className="form-select"
@@ -165,7 +165,7 @@ function Objetivos() {
                 {valorTotal !== null && (
                   <div className="mt-4 text-center bg-success bg-opacity-10 p-3 rounded-3">
                     <h5 className="text-success fw-bold mb-2">
-                      💎 Valor Total Estimado
+                        Valor Total Estimado
                     </h5>
                     <h4 className="fw-bold">
                       $
@@ -187,7 +187,7 @@ function Objetivos() {
         {/* Guía visual */}
         <Row className="mt-5 text-center">
           <Col>
-            <h4 className="text-success mb-3">📋 Guía de Factores de Calidad</h4>
+            <h4 className="text-success mb-3"> Guía de Factores de Calidad</h4>
             <div className="d-flex flex-wrap justify-content-center gap-3">
               {factoresCalidad.map((factor) => (
                 <div

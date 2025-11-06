@@ -160,7 +160,7 @@ function Home() {
         }}
       >
         <h3 className="fw-bold mb-3">
-          🌍 ¡Únete al cambio hacia un Quibdó más verde y sostenible!
+            ¡Únete al cambio hacia un Quibdó más verde y sostenible!
         </h3>
         <p className="mb-4">
           Contáctanos y descubre cómo puedes formar parte de nuestra misión ecológica.

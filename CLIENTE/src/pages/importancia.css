@@ -1,79 +1,13 @@
-/* ==========================================
-   ECOCHATARRA - Importancia.css 🌱
-   Diseño elegante, moderno y ecológico
-   ========================================== */
-
-.importancia-section {
-  background: linear-gradient(180deg, #f8fdf9 0%, #f3f7f3 100%);
-  animation: fadeIn 1s ease-in-out;
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Tarjeta */
-.importancia-card {
-  border-radius: 18px;
-  background: #ffffff;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  position: relative;
-  overflow: hidden;
-  padding: 1rem;
+.section {
+  transition: all 0.3s ease;
 }
 
-.importancia-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 10px 25px rgba(25, 135, 84, 0.2);
-}
-
-/* Icono */
-.icono-wrapper {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: rgba(25, 135, 84, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto 15px auto;
-  transition: transform 0.4s ease, background-color 0.3s ease;
-}
-
-.importancia-card:hover .icono-wrapper {
-  background: rgba(25, 135, 84, 0.2);
-  transform: rotate(8deg) scale(1.1);
-}
-
-/* Título */
-.importancia-card .card-title {
-  font-size: 1.2rem;
-  color: #198754;
-  margin-bottom: 0.5rem;
-}
-
-/* Texto */
-.importancia-card .card-text {
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.5;
-}
-
-/* Animación de entrada */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(25px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-  .importancia-card {
-    padding: 1rem;
-  }
-  .icono-wrapper {
-    width: 60px;
-    height: 60px;
-  }
+.section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }

@@ -7,26 +7,26 @@ function MisionVision() {
   const materiales = [
     {
       nombre: 'Cobre',
-      precio: '💰 $18.000 / kg',
+      precio: ' $18.000 / kg',
       src: "/cobre.png",
       descripcion: 'Altamente valorado por su conductividad eléctrica y reciclabilidad.',
     },
     {
       nombre: 'Aluminio',
-      precio: '💰 $7.500 / kg',
+      precio: ' $7.500 / kg',
       src: "/aluminio.png",
       descripcion: 'Ligero, resistente y fácil de reciclar. Muy usado en envases y estructuras.',
     },
     {
       nombre: 'Hierro',
-      precio: '💰 $1.200 / kg',
+      precio: ' $1.200 / kg',
       src : "/hierro.png",
       descripcion: 'Material común en construcción y fabricación, ampliamente reciclado.',
     },
     
     {
       nombre: 'Baterías',
-      precio: '💰 $3.500 / unidad',
+      precio: ' $3.500 / unidad',
       src: "/baterias.png",
       descripcion: 'Contienen metales pesados, requieren manejo responsable y seguro.',
     },
